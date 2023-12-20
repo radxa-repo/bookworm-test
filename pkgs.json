@@ -47,5 +47,6 @@
   "radxa-plymouth-theme": "0.1.1",
   "linux-stable": "6.1.68-1",
   "chromium-x11": "111.0.5563.147",
-  "radxa-calamares-oem": "0.1.1"
+  "radxa-calamares-oem": "0.1.1",
+  "jellyfin-ffmpeg": "6.0.1-2"
 }
