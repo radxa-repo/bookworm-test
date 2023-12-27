@@ -1,9 +1,0 @@
-Archive: bookworm-test
-Component: main
-Origin: Radxa
-Label: Freight
-NotAutomatic: no
-ButAutomaticUpgrades: no
-Architecture: all
-Date: Tue, 26 Dec 2023 03:34:26 UTC
-Valid-Until: Tue, 30 Nov 2038 00:00:00 UTC
