@@ -5,7 +5,7 @@
   "android-tools-adbd": "5.1.1.r38-1.1",
   "radxa-bootutils": "0.2.3",
   "dthelper": "10.0.2-1",
-  "radxa-firmware": "0.2.16",
+  "radxa-firmware": "0.2.17",
   "u-boot-menu": "4.1.0",
   "rockchip-iqfiles": "0.1.10",
   "rockchip-chromium-x11-utils": "0.1.3",
