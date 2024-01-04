@@ -1,0 +1,9 @@
+Archive: amlogic-bookworm-test
+Component: main
+Origin: Radxa
+Label: Freight
+NotAutomatic: no
+ButAutomaticUpgrades: no
+Architecture: all
+Date: Thu, 04 Jan 2024 08:21:20 UTC
+Valid-Until: Tue, 30 Nov 2038 00:00:00 UTC
