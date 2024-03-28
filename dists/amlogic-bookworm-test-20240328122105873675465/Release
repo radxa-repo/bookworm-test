@@ -1,0 +1,38 @@
+Origin: Radxa
+Label: Freight
+Suite: amlogic-bookworm-test
+Codename: amlogic-bookworm-test
+NotAutomatic: no
+ButAutomaticUpgrades: no
+Components: main 
+Architectures: all arm64
+Date: Thu, 28 Mar 2024 12:21:05 UTC
+Valid-Until: Tue, 30 Nov 2038 00:00:00 UTC
+MD5Sum:
+ 6b51e202ce31d17d6860c6d34b25842f 215 main/binary-all/Release
+ 17a8d163b5e7ed4745f2d1dd090d5128 492 main/binary-all/Packages.gz
+ ce1c4a0e7c6624b671bfb0dd73fbaef5 734 main/binary-all/Packages
+ 89358517dcf07be597618e7d08f191b3 217 main/binary-arm64/Release
+ 17a8d163b5e7ed4745f2d1dd090d5128 492 main/binary-arm64/Packages.gz
+ ce1c4a0e7c6624b671bfb0dd73fbaef5 734 main/binary-arm64/Packages
+SHA1:
+ 45a231bc18fa73e88c4f98a3ffac75c318f4b400 215 main/binary-all/Release
+ 93a6430c2e2bb203f5628e7c2dcd8f05da19608b 492 main/binary-all/Packages.gz
+ 557098350c1e3fe19b0c80867fd2acd9539fc610 734 main/binary-all/Packages
+ 38b3926518c9fffc674e98fa377680af776e0529 217 main/binary-arm64/Release
+ 93a6430c2e2bb203f5628e7c2dcd8f05da19608b 492 main/binary-arm64/Packages.gz
+ 557098350c1e3fe19b0c80867fd2acd9539fc610 734 main/binary-arm64/Packages
+SHA256:
+ d747afddaf3d9e9abb0deee9786da4dddd0aeef7feb64bcb658c6df1c1ca99e0 215 main/binary-all/Release
+ 674eb6839a66edf3df82623cf4f264a3a18d5065805e640f99145ccb2c55ec36 492 main/binary-all/Packages.gz
+ 3645d95e0983fa110bb1fdd0b64ae670280a907f806ae441ac8904822a36d37e 734 main/binary-all/Packages
+ dee52b14ab2245b48047d864416aa9617d18f97dab2c0010c88feec0ba157530 217 main/binary-arm64/Release
+ 674eb6839a66edf3df82623cf4f264a3a18d5065805e640f99145ccb2c55ec36 492 main/binary-arm64/Packages.gz
+ 3645d95e0983fa110bb1fdd0b64ae670280a907f806ae441ac8904822a36d37e 734 main/binary-arm64/Packages
+SHA512:
+ 476d4a307eca43c4d28c4b23ee3ce15eea3fc86c5b0203520da24e0167ce7e8906326c3e1aaa4cccc6546f890bc7b0b0d69d750b304cc24deb47adb993392efc 215 main/binary-all/Release
+ 237b77903af51f0d4b845ff4d055e04551a6fe78210e5dfb36d0ef82ab6c1f4df45303167c2d3da9d1e36a2d31c3fcbae36b9110275c1468bf87987bf6c159be 492 main/binary-all/Packages.gz
+ 67206e867fabb3bde5ceac3a74f4b6c6b9a4aa2c33e3f745c1669957d08b0e96acd34f5ca2f23091aa2dffc1f57925ae8324f9c18139859eeb0b92bdaca913c1 734 main/binary-all/Packages
+ 026e2091a2c50366b249b4b940b4d4ca18ed7f8e92a0d29e6b57619f6c5db9abf76118d0aa3a16058dad036eab746c8b0e98a20dfeea9e45432a419e0d925aa9 217 main/binary-arm64/Release
+ 237b77903af51f0d4b845ff4d055e04551a6fe78210e5dfb36d0ef82ab6c1f4df45303167c2d3da9d1e36a2d31c3fcbae36b9110275c1468bf87987bf6c159be 492 main/binary-arm64/Packages.gz
+ 67206e867fabb3bde5ceac3a74f4b6c6b9a4aa2c33e3f745c1669957d08b0e96acd34f5ca2f23091aa2dffc1f57925ae8324f9c18139859eeb0b92bdaca913c1 734 main/binary-arm64/Packages
