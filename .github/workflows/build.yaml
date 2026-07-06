@@ -10,12 +10,12 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
     - name: "Checkout rsdk"
-      uses: "actions/checkout@v6"
+      uses: "actions/checkout@v7"
       with:
-        ref: "77044d345b12e14a218970f13cd0435a6a5c68a2"
+        ref: "3c5a176075dcc7585a1b10f292cffd6f22e4af22"
         repository: "RadxaOS-SDK/rsdk"
     - name: "Checkout current repo"
-      uses: "actions/checkout@v6"
+      uses: "actions/checkout@v7"
       with:
         path: ".infra-repo"
     - env:
@@ -51,9 +51,14 @@ jobs:
             "rockchip-bookworm-test"
         )
         
+        logging=()
+        if [[ "$ACTIONS_STEP_DEBUG" == "true" ]]; then
+            logging+=(--verbose)
+        fi
+        
         pushd .infra-repo
         
-        ../src/bin/rsdk infra-pkg-download "${suites[@]}"
+        ../src/bin/rsdk infra-pkg-download "${logging[@]}" "${suites[@]}"
         ../src/bin/rsdk infra-repo-sync "${suites[@]}"
         export RSDK_REPO_ORIGIN="$(../src/bin/rsdk config infra.repository.origin)"
         
@@ -69,7 +74,7 @@ jobs:
     - name: "Setup GitHub Pages"
       uses: "actions/configure-pages@v6"
     - name: "Upload artifact"
-      uses: "actions/upload-pages-artifact@v4"
+      uses: "actions/upload-pages-artifact@v5"
       with:
         path: "${{ steps.build.outputs.pages }}"
     - id: "deploy"
@@ -82,7 +87,7 @@ jobs:
         name: "github-pages"
     - if: "steps.deploy.outcome == 'success'"
       name: "Release Pages artifact"
-      uses: "softprops/action-gh-release@v2"
+      uses: "softprops/action-gh-release@v3"
       with:
         body: "Rolling Pages artifact"
         draft: false
@@ -90,6 +95,7 @@ jobs:
         prerelease: false
         tag_name: "github-pages"
         token: "${{ secrets.GITHUB_TOKEN }}"
+    timeout-minutes: 30
 name: "Publish packages"
 "on":
   merge_group: {}
